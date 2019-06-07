@@ -1,0 +1,238 @@
+Q1). What is Performance testing?
+
+Performance testing is a discipline of software testing wherein a tester tests the given system to assess the system’s performance when subjected to a variety of virtual user load. 
+Q2). Name a few types of performance testing
+
+There are primarily six types of performance testing. They are-
+
+    Load testing
+    Endurance testing
+    Volume testing
+    Stress testing
+    Scalability testing
+    Spike testing
+
+Q3). Differentiate between Stress Testing and Load Testing?
+
+Stress Testing is also known as negative testing as the tester test the system beyond its boundaries specified to discover the breakpoint threshold of the system. Whereas load testing is the easiest form of performance testing which is done by increasing the testing load step by step to reach the defined limit or the goal. 
+Q4). What is concurrent user load in performance testing?
+
+Concurrent user load in performance testing can be defined as something when many users hit any functionality or operation at the same time.
+Q5). What is a protocol and name a few protocols?
+
+A protocol is a defined as a set of various rules for the purpose of information communication between the two or more systems. There are many protocols such as Http/Https, FTP, Web Services, Citrix, Http/Https and Web Services.
+Q6). Name a few common performance testing problems.
+
+A few recurring performance testing problems are-
+
+    Longer loading time
+    Poor Scalability
+    Bottlenecking
+    Poor response time
+
+Q7). Name a few common performance bottlenecks?
+
+Some popular common performance bottlenecks are-
+
+    CPU Utilization
+    Memory Utilization
+    Networking Utilization
+    S limitation
+    Disk Usage 
+
+Q8). Name some popular performance testing tools?
+
+Some common performance testing tools are-
+
+    HP Loader
+    HTTP Load
+    Proxy Sniffer
+    Rational Performance Tester
+    JMeter
+    Borland Silk Performer
+
+Q9). What are the parameters considered for performance testing?
+
+The parameters considered are-
+
+    Memory usage
+    CPU interruption per second
+    Committed memory
+    Thread counts
+    Top waits, etc.
+    Processor usage
+    Network output queue length
+    Response time
+    Bandwidth
+    Memory pages
+	
+
+Q10). Elucidate the steps that are required in JMeter to create a performance test plan?
+
+To create a performance test plan in JMeter you need the following steps-
+
+    Add thread group
+    Add JMeter elements
+    Add Graph result
+    Run test & get the result
+
+Performance Testing Interview Questions And Answers For Experienced 
+Q11). List down the phases of automated performance testing?
+
+Here is a list of phases for automated performance testing
+
+    Design or Planning
+    Build
+    Execution
+    Analyzing & Tuning
+
+Read:   Top 15 Security Testing Interview Questions and Answers
+Q12). Differentiate between the benchmark testing and baseline testing?
+
+Benchmark Testing is the method deployed for comparing the performance of your system framework performance against a set industry standard that is laid out already by some other organization. Whereas the Baseline Testing is the type of testing technique where a tester runs a series of tests in order to get hold of the performance information. When any future change is made in the given app, this data is then used as a reference point.
+Q13). What is performance tuning?
+
+Performance tuning is a method or a mechanism followed to improve the system performance.
+Q14). Name and elucidate the types of performance tuning.
+
+In order to improve the performance of the system, primarily there are two types of tuning performed-
+
+    Hardware tuning: Enhancing, adding or supplanting the hardware components of the system under test and changes in the framework level to augment the system’s performance is called hardware tuning.
+    Software tuning: Identifying the software level bottlenecks by profiling the code, database etc. Fine tuning or modifying the software to fix the bottlenecks is called software tuning.
+
+Q15). Highlight the need for opting for Performance testing?
+
+Performance testing is generally required to validate the below-given things:
+
+    The response time of application for the intended number of users-
+    Utmost load resisting capacity of an application.
+    The capability of the app under test to handle the particular number of transactions.
+    The constancy of an application under the usual and unexpected user load.
+    Making sure that users have an appropriate response time on production.
+
+Q16). What is the reason behind discontinuation of manual load testing?
+
+Following were the drawbacks of manual Load Testing that lead to the adoption of Automation load testing:
+
+    Complicated procedure to measure the performance of the application precisely.
+    Complex synchronization procedures between the two or more users.
+    Difficult to assess and recognize the outcomes & bottlenecks.
+    Increased the overall infrastructure cost.
+
+Q17). In what manner would you identify the performance bottlenecks situations?
+
+Performance Bottlenecks can be easily recognized by monitoring the app against load and stress conditions. To find bottleneck situation in performance testing the testers usually use Load Runner because it supports many different types of monitors like a run-time monitor, network delay monitor, web resource monitor, database server monitor, firewall monitor, ERP server resources monitor and Java performance monitor. These monitors in turn help to the tester to establish the condition which causes an increase in the response time of the application. The capacity of the performance of the application is based on response time, throughput, hits per sec, network delay graphs, etc.
+Read:   Software Testing Engineer Career Path: Role & Job Responsibilities
+Q18). Is it possible to perform spike testing in JMeter? if yes how?
+
+Spike Testing is conducted to comprehend what changes happen on the appl when the abruptly large number of users is either increased or decreased. Unexpected changes in the number of users by increasing or decreasing at a certain point of application and then monitoring the behavior of the app thereafter. In JMeter, spike testing can be achieved by using Synchronizing Timer. The threads are jammed by synchronizing the timer until a specific number of threads have been successfully blocked, and then release them at once thus creating large immediate load.
+Q19). What is throughput in Performance Testing?
+
+Throughput in Performance testing is either the quantity of data sent by the server in response to the client request in a particular given period of time or it is the specific number of units of work that can be handled in per unit of time. The throughput is calculated in terms of requests received per second, calls per day, reports per year, hits per second, etc. In the majority of the cases, the throughput is premeditated in bits per seconds. 
+Q20). What is profiling in performance testing?
+
+Profiling is a procedure of pinpointing a bottleneck performance at miniature levels. This is done by presentation teams for manufacturing which mainly includes developers or performance testers. You can profile in any application layer which is getting tested. If you want to do application profiling you may require utilizing tools for performance profiling of application servers.
+Other Software Testing Related Interview Questions
+
+21) Explain what is performance testing?
+
+Performance testing is done for quality assurance. It involves testing software application to make sure that the software is working well under their expected workload.
+
+22) Why does JMeter become a natural choice of tester when it comes to performance testing?
+
+JMeter tool has benefits like
+
+    It can be used for testing both static resources like HTML and JavaScript, as well as dynamic resources like Servlets, Ajax, JSP, etc.
+    JMeter has a tendency to determine the maximum number of concurrent users that your website can handle
+    It provides a variety of graphical analyses of performance reports
+	
+23) Mention what all thing involves in Performance Testing Process?
+
+    Right testing environment: Figure out the physical test environment before carry performance testing, like hardware, software and network configuration
+    Identify the performance acceptance criteria: It contains constraints and goals for throughput, response times and resource allocation
+    Plan and design Performance tests: Define how usage is likely to vary among end users, and find key scenarios to test for all possible use cases
+    Test environment configuration: Before the execution, prepare the testing environment and arranges tools, other resources, etc.
+    Test design implementation: According to your test design, create a performance test
+    Run the tests: Execute and monitor the tests
+    Analyze, tune and retest: Analyze, consolidate and share test results. After that, fine tune and test again to see if there is any enhancement in performance. Stop the test, if CPU is causing bottlenecking.
+
+24) List out the factors you must consider before selecting performance tools?
+
+    Customer preference tool
+    Availability of license within customer machine
+    Availability of test environment
+    Additional protocol support
+    License cost
+    Efficiency of tool
+    User options for testing
+    Vendor support
+
+25) Mention what is the difference between performance testing and functional testing?
+	Functional Testing 	                          
+
+    To verify the accuracy of the software with definite inputs against expected output, functional testing is done.
+    This testing can be done manually or automated
+    One user performs all the operations
+    Customer, Tester and Development involvement is required
+    Production sized test environment is not necessary, and H/W requirements are minimal
+
+	Performance Testing
+
+    To validate the behavior of the system at various load conditions performance testing is done.
+    It gives the best result if automated
+    Several user performs desired operations
+    Customer, Tester, Developer, DBA and N/W management team
+    Requires close to production test environment and several H/W facilities to populate the load
+
+	
+26) Explain what is Endurance Testing and Spike Testing?
+
+    Endurance Testing: It is one type of performance testing where the testing is conducted to evaluate the behavior of the system when a significant workload is given continuously
+    Spike Testing: It is also a type of performance testing that is performed to analyze the behavior of the system when the load is increased substantially.
+
+27) Explain what are the common mistakes done in Performance Testing?
+
+The common mistakes done in Performance Testing are
+
+    Direct jump to multi-user tests
+    Test results not validated
+    Unknown workload details
+    Too small run durations
+    Lacking long duration sustainability test
+    Confusion on definition of concurrent users
+    Data not populated sufficiently
+    Significant difference between test and production environment
+    Network bandwidth not simulated
+    Underestimating performance testing schedules
+    Incorrect extrapolation of pilots
+    Inappropriate base-lining of configurations
+
+28) Mention the steps required in JMeter to create a performance test plan?
+
+To create a performance test plan in JMeter
+
+    Add thread group
+    Add JMeter elements
+    Add Graph result
+    Run test & get the result
+
+29) What is difference between Simultaneous user and Concurrent user?
+
+       Simultaneous users : Run in parallel and perform different activities on application at the same time.
+Example: One user clicking on submit, other user is logging in, another user is clicking on Next button etc.
+Concurrent users : Run in parallel and perform same activities on application at the same time.
+Example: Users clicking on the same Submit or Next or upload or etc button at the same time.
+
+30) What is Ramp-Up and Ramp-Down?
+
+The rate at which we increase the load on system by adding virtual users is called ramp up.
+
+The rate at which virtual users exit from system is called as ramp down.
+
+31) What Activities Are Performed During Performance Testing Of Any Application?
+
+    Create user scenarios
+    User Distribution
+    Scripting
+    Dry run of the application
+    Running load test and analyzing the result

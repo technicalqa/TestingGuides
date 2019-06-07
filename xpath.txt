@@ -1,0 +1,6 @@
+1) Basic XPath: Xpath=//input[@name='uid']
+2) Contains() : Xpath=//*[contains(@type,'sub')]
+3) Using OR & AND: Xpath=//*[@type='submit' OR @name='btnReset']    ------Xpath=//input[@type='submit' AND @name='btnLogin']
+4) Start-with function:Xpath=//label[starts-with(@id,'message')]
+5) Text():Xpath=//td[text()='UserID']
+6) XPath axes methods:

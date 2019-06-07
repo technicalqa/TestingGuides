@@ -1,0 +1,126 @@
+What is Quality Assurance?
+	Quality assurance is a process driven approach which checks if the process of developing the product is correct and conforming to all the standards
+What is Quality Control?
+	Quality control is product driven approach which checks that the developed product conforms to all the specified requirements.
+Verification:
+	1.Verification is the process of evaluating the artifacts as well as the process of software development in order to ensure that the product being developed will comply to the standards.
+	2.It is static process of analysing the documents and not the actual end product.
+	3.Verification is a process oriented approach.
+	4.Errors found during verification require lesser cost/resources to get fixed as compared to be found during validation phase.
+
+Validation:
+	1.Validation is the process of validating that the developed software product conforms to the specified business requirements.
+	2.It involves dynamic testing of software product by running it.
+	3.Validation is a product oriented approach.
+	4.Errors found during validation require more cost/resources. Later the error is discovered higher is the cost to fix it.
+	
+What is a test plan?
+	Ans. A test plan is a formal document describing the scope of testing, the approach to be used, resources required and time estimate of carrying out the testing process. It is derived from the requirement documents(Software Requirement Specifications).
+	
+What is a test scenario?
+	Ans. A test scenario is derived from a use case. It is used for end end to end testing of a feature of an application. A single test scenario can cater multiple test cases. The scenario testing is particularly useful when there is time constraint while testing.
+	
+What is a test case?
+	Ans. A test case is used to test the conformance of an application with its requirement specifications. It is a set of conditions with pre-requisites, input values and expected results in a documented form.
+	
+What is a bug?
+	Ans. A bug is a fault in a software product detected at the time of testing, causing it to function in an unanticipated manner.
+	
+What is a defect?
+	Ans. A defect is non-conformance with the requirement of the product detected in production (after the product goes live).
+	
+What is defect priority?
+	Ans. A defect priority is the urgency of the fixing the defect. Normally the defect priority is set on a scale of P0 to P3 with P0 defect having the most urgency to fix.
+	
+What is defect severity?
+	Ans. Defect severity is the severity of the defect impacting the functionality. Based on the organisation, we can have different levels of defect severity ranging from minor to critical or show stopper.
+	
+Give an example of Low priority-Low severity, Low priority-High severity, High priority-Low severity, High priority-High severity defects.
+	Ans.
+    Low priority-Low severity - A spelling mistake in a page not frequently navigated by users.
+    Low priority-High severity - Application crashing in some very corner case.
+    High priority-Low severity - Slight change in logo color or spelling mistake in company name.
+    High priority-High severity - Issue with login functionality.
+
+Explain the different types of specification based test design technique?
+Ans. Specification based test design techniques are also referred to as black-box testing. It involves testing based on the specification of the system under test without knowing its internal architecture. The different types of specification based test design or black box testing techniques are-
+
+    Equivalence partitioning - Grouping test data into logical groups or equivalence classes with the assumpation that all the data items lying in the classes will have same effect on the application.
+    Boundary value analysis - Testing using the boundary values of the equivalence classes taken as the test input.
+    Decision tables - Testing using decision tables showing application's behaviour based on different combination of input values.
+    Cause-effect graph - Testing using graphical representation of input i.e. cause and output i.e. effect is used for test designing.
+    State transition testing - Testing based on state machine model.
+    Use case testing - Testing carried out using use cases.
+	
+Explain equivalence class partitioning.
+	Ans. Equivalence class partitioning is a specification based black box testing techniques. In equivalence class partitioning, set of input data that defines different test conditions are partitioned into logically similar groups such that using even a single test data from the group for testing can be considered as similar to using all the other data in that group. E.g. for testing a Square program(program that prints the square of a number- the equivalence classes can be-
+		Set of Negative numbers, whole numbers, decimal numbers, set of large numbers etc.
+		
+What is boundary value analysis?
+	Ans. Boundary value analysis is a software testing technique for designing test cases wherein the boundary values of the classes of the equivalence class partitioning are taken as input to the test cases e.g. if the test data lies in the range of 0-100, the boundary value analysis will include test data - 0,1, 99, 100.
+	
+What is decision table testing?
+Ans. Decision table testing is a type of specification based test design technique or black box testing technique in which testing is carried out using decision tables showing application's behaviour based on different combination of input values. Decision tables are particularly helpful in designing test cases for complex business scenarios involving verification of application with multiple combinations of input.
+-----------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+What is a cause effect graph?
+	Ans. A cause effect graph testing is black box test design technique in which graphical representation of input i.e. cause and output i.e. effect is used for test designing. This technique uses different notations representing AND, OR, NOT etc relations between the input conditions leading to output.
+
+What is state transition testing?
+	Ans. State transition testing is a black box test design technique based on state machine model. State transition testing is based on the concept that a system can be defined as a collection of multiple states and the transition from one state to other happens because of some event.
+
+What is use case testing?
+	Ans. A use case testing is a black box testing approach in which testing is carried out using use cases. A use case scenario is seen as interaction between the application and actors(users). These use cases are used for depicting requirements and hence can also serve as basis for acceptance testing.
+
+What are the different types of integration testing?
+	Ans. The different type of integration testing are-
+    Big bang Integration Testing - In big bang integration testing, testing starts only after all the modules are integrated.
+    Top-down Integration Testing - In top down integration, testing/integration starts from top modules to lower level modules.
+    Bottom-up Integration Testing - In bottom up integration, testing starts from lower level modules to higher level module up in the heirarchy.
+    Hybrid Integration Testing - Hybrid integration testing is the combination of both Top-down and bottom up integration testing. In this approach, the integration starts from middle layer and testing is carried out in both the direction
+	
+How is monkey testing different from adhoc testing?
+	Ans. In case of adhoc testing although there are no predefined or documented test cases still testers have the understanding of the application. While in case of monkey testing testers doesn't have any understanding of the application.
+	
+What is exploratory testing?
+	Ans. Exploratory testing is a type of testing in which new test cases are added and updated while exploring the system or executing test cases. Unlike scripted testing, test design and execution goes parallely in exploratory testing.
+	
+What is the difference between smoke and sanity testing?
+	Ans. The difference between smoke and sanity testing is-
+    Smoke testing is a type of testing in which the all major functionalities of the application are tested before carrying out exhaustive testing. Whereas, sanity testing is subset of regression testing which is carried out when there is some minor fix in application in a new build.
+    In smoke testing, shallow-wide testing is carried out while in sanity narrow-deep testing (for a particular functionality) is done.
+    The smoke tests are usually documented or are automated. Whereas, the sanity tests are generally not documented or unscripted.
+	
+What is cyclomatic complexity?
+	Ans. Cyclomatic complexity is the measure of the number of independent paths in an application or program. This metric provides an indication of the amount of effort required to test complete functionality. It can be defined by the expression -
+	L – N + 2P, where:
+	L is the number of edges in the graph
+	N is the number of node
+	P is the number of disconnected parts
+	
+What is mutation testing?
+	Ans. Mutation testing is a type of white box testing in which the source code of the application is mutated to cause some defect in its working. After that the test scripts are executed to check for their correctness by verifying the failures caused the mutant code.
+	
+Explain TDD (Test Driven Development).
+	Ans. Test Driven Development is a software development methodology in which the development of the software is driven by test cases created for the functionality to be implemented. In TDD, first the test cases are created and then code to pass the tests is written. Later the code is refactored as per the standards.
+

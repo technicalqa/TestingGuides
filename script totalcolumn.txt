@@ -1,0 +1,20 @@
+SELECT COUNT(*)
+FROM
+    dbo.INFORMATION_SCHEMA.COLUMNS
+WHERE
+    TABLE_SCHEMA = 'SPM_QA_SCHEMA_NEW_COPY'
+    
+    
+SELECT * FROM SPM_KEY_VALUE_PAIR
+
+
+
+select 
+        st.name [Table],
+        sc.name [Column],
+        sep.value [Description]
+    from sys.tables st
+    inner join sys.columns sc on st.object_id = sc.object_id
+    left join sys.extended_properties sep on st.object_id = sep.major_id
+                                         and sc.column_id = sep.minor_id
+                                         and sep.name = 'MS_Description'
